@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.lead {
+    font-size: 20px; 
+    font-weight: 400;
+}
+
+.card-header{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(170,0,255);  
+    background: linear-gradient(to right, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+.right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.navi {
+    padding: 15px;
+    margin: auto;
+    border-radius: 50px;
+    border: 3px solid rgb(106, 17, 203);
+}
+
+.tabs {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.87);
+    border-radius: 100px;
+    transition: 0.3s;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    
+}
+
+.tabs:hover {
+    background-color: whitesmoke;
+    padding: auto;
+    width: 175px;
+    text-align: center;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(128, 0, 128, 0.9) 0 8px 16px;
+}
+
+
+.data{
+    display: none;
+    padding-bottom: 100px;
+    width: 75%;
+    margin-top: 75px;
+}

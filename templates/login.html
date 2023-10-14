@@ -1,0 +1,45 @@
+<html>
+  <head>
+  {% include 'bootstrap.html' %}
+
+  <style>
+    
+    .center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+    }
+  </style>
+  </head>
+  <body>
+    {% include 'script.html' %}
+
+     
+  <div class="h-100 d-flex align-items-center justify-content-center">
+    <div class="grid" style="width: 400px; padding:25px;">
+      <div class="text-center">
+        <img src="static/logo.svg" width="60" height="50" alt="...">
+      </div>
+        <form action="/SignIn/welcome" method="post">
+      <div class="mt-5 mb-3 row">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3 row">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" name="pass" id="exampleInputPassword1">
+      </div>
+      <div class="mt-4">
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+  
+</body>
+</html>
